@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://sumangtm.com.np/</loc></url>
+  <url><loc>https://sumangtm.com.np/projects.html</loc></url>
+  <url><loc>https://sumangtm.com.np/blogs.html</loc></url>
+  <url><loc>https://sumangtm.com.np/blog-decision.html</loc></url>
+  <url><loc>https://sumangtm.com.np/blog-roadmaps.html</loc></url>
+  <url><loc>https://sumangtm.com.np/blog-ai.html</loc></url>
+  <url><loc>https://sumangtm.com.np/blog-delivery.html</loc></url>
+  <url><loc>https://sumangtm.com.np/blog-engineering.html</loc></url>
   <url><loc>https://sumangtm.com.np/work.html</loc></url>
   <url><loc>https://sumangtm.com.np/aboutme.html</loc></url>
   <url><loc>https://sumangtm.com.np/experience.html</loc></url>

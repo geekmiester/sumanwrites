@@ -15,16 +15,20 @@ Then open `http://localhost:8000`.
 ## Structure
 
 - `index.html` — homepage and recruiter scan
-- `work.html` — five factual product stories
-- `aboutme.html` — product approach and career transition
-- `experience.html` — employment and education timeline
+- `projects.html` — portfolio index for projects, case studies, and design breakdowns
+- `work.html` — detailed product stories retained for older links
+- `blogs.html` — five sample article entries ready to develop
+- `aboutme.html` — product approach, experience timeline, and education
+- `experience.html` — compatibility redirect to the Experience section inside About
 - `contact.html` — contact details and mail-client form fallback
 - `assets/css/portfolio.css` — shared design system and responsive layout
 - `assets/js/portfolio.js` — accessible mobile navigation
 
 ## Content updates
 
-Professional copy is kept in the HTML pages so the site remains easy to edit without a build step. Update metrics and dates only against the supplied resume. Add a real PDF to `public/resume/` or the repository root before turning the Resume link into a download link. No testimonial section is included because no genuine testimonial copy was supplied.
+Professional copy is kept in the HTML pages so the site remains easy to edit without a build step. Update metrics and dates only against the supplied resume. The downloadable resume is stored at `assets/resume/suman-gautam-product-manager-resume.pdf`. No testimonial section is included because no genuine testimonial copy was supplied.
+
+Projects and blog entries are intentionally marked as sample content. Replace the titles, summaries, links, and metadata with publishable material as each project or article becomes ready.
 
 ## Contact form
 
