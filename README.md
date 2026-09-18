@@ -22,7 +22,11 @@ Then open `http://localhost:8000`.
 - `experience.html` — compatibility redirect to the Experience section inside About
 - `contact.html` — contact details and mail-client form fallback
 - `assets/css/portfolio.css` — shared design system and responsive layout
-- `assets/js/portfolio.js` — accessible mobile navigation
+- `assets/css/colors.css` — named color tokens and semantic palette aliases
+- `assets/css/styles.css` — global site and accessibility styles
+- `assets/css/components.css` — reusable logo, title, menu, button, and footer styles
+- `assets/js/components.js` — reusable logo, website title, header menu, footer, and resume components
+- `assets/js/portfolio.js` — component loader and accessible mobile navigation
 
 ## Content updates
 

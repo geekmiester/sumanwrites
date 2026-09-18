@@ -1,0 +1,5 @@
+/* ========================================
+   GLOBAL SITE STYLES
+   Shared document, typography, layout, and accessibility rules.
+   ======================================== */
+:focus-visible{outline:2px solid var(--color-vibrant-coral);outline-offset:4px}::selection{background:var(--color-lemon-chiffon);color:var(--color-charcoal)}img{max-width:100%;height:auto}button,a{ -webkit-tap-highlight-color:transparent}.site-header,.site-footer{isolation:isolate}.site-nav a,.footer-links a,.text-link,.button{transition:color .2s ease,background-color .2s ease,border-color .2s ease,transform .2s ease}.sr-only{clip:rect(0 0 0 0)}

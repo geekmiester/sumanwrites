@@ -1,0 +1,28 @@
+/* ========================================
+   COLOR TOKENS
+   Requested palette: coral, lemon, ash, teal, linen.
+   ======================================== */
+:root {
+  --color-vibrant-coral: #ed6a5a;
+  --color-lemon-chiffon: #f4f1bb;
+  --color-ash-grey: #9bc1bc;
+  --color-tropical-teal: #5ca4a9;
+  --color-soft-linen: #e6ebe0;
+  --color-charcoal: #50514f;
+
+  /* Semantic aliases used by the site. */
+  --paper: var(--color-soft-linen);
+  --ink: var(--color-charcoal);
+  --muted: var(--color-charcoal);
+  --line: rgba(80, 81, 79, .24);
+  --green: var(--color-tropical-teal);
+  --green-dark: var(--color-charcoal);
+  --wash: var(--color-ash-grey);
+  --coral: var(--color-vibrant-coral);
+  --gold: var(--color-lemon-chiffon);
+  --teal: var(--color-tropical-teal);
+  --cerulean: var(--color-tropical-teal);
+  --charcoal: var(--color-charcoal);
+  --linen: var(--color-soft-linen);
+  --ash: var(--color-ash-grey);
+}
