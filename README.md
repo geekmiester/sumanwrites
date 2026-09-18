@@ -1,6 +1,26 @@
-# Suman Gautam portfolio
+# Suman Gautam
 
-A lightweight, responsive portfolio for Suman Gautam, Product Manager and Product Owner. The site is intentionally static so it can deploy directly to GitHub Pages or any standard web host.
+Product Manager and Product Owner based in Adelaide, Australia.
+
+This portfolio showcases Suman's product work, case studies, writing, and professional background.
+
+## Links
+
+- Website: https://sumangtm.com.np
+- LinkedIn: https://www.linkedin.com/in/sumanwrites/
+- Download resume: [suman-gautam-product-manager-resume.pdf](assets/resume/suman-gautam-product-manager-resume.pdf)
+
+## About Suman
+
+Suman Gautam is a product-focused professional with experience across product management, delivery, and stakeholder leadership. This portfolio highlights his work in product strategy, customer discovery, onboarding, analytics, and digital product improvements.
+
+## Portfolio highlights
+
+- Product strategy and roadmap work
+- Cross-functional delivery and stakeholder alignment
+- UX and onboarding improvement initiatives
+- Product analytics and decision support
+- Product writing and thought leadership through blog articles
 
 ## Run locally
 
@@ -10,34 +30,21 @@ From the repository root:
 ruby -run -e httpd . -p 8000
 ```
 
-Then open `http://localhost:8000`.
+Then open http://localhost:8000 in the browser.
 
-## Structure
+## Files
 
-- `index.html` — homepage and recruiter scan
-- `projects.html` — portfolio index for projects, case studies, and design breakdowns
-- `work.html` — detailed product stories retained for older links
-- `blogs.html` — five sample article entries ready to develop
-- `aboutme.html` — product approach, experience timeline, and education
-- `experience.html` — compatibility redirect to the Experience section inside About
-- `contact.html` — contact details and mail-client form fallback
-- `assets/css/portfolio.css` — shared design system and responsive layout
-- `assets/css/colors.css` — named color tokens and semantic palette aliases
-- `assets/css/styles.css` — global site and accessibility styles
-- `assets/css/components.css` — reusable logo, title, menu, button, and footer styles
-- `assets/js/components.js` — reusable logo, website title, header menu, footer, and resume components
-- `assets/js/portfolio.js` — component loader and accessible mobile navigation
+- `index.html` — homepage and introduction
+- `aboutme.html` — about and experience overview
+- `projects.html` — project showcase and case studies
+- `blogs.html` — blog listing and article pages
+- `contact.html` — contact details and resume access
+- `assets/resume/suman-gautam-product-manager-resume.pdf` — downloadable resume
 
-## Content updates
+## Contact
 
-Professional copy is kept in the HTML pages so the site remains easy to edit without a build step. Update metrics and dates only against the supplied resume. The downloadable resume is stored at `assets/resume/suman-gautam-product-manager-resume.pdf`. No testimonial section is included because no genuine testimonial copy was supplied.
+Email: gauatsumanwrites@gmail.com
 
-Projects and blog entries are intentionally marked as sample content. Replace the titles, summaries, links, and metadata with publishable material as each project or article becomes ready.
+LinkedIn: https://www.linkedin.com/in/sumanwrites/
 
-## Contact form
-
-The current form uses `mailto:`. It opens the visitor's email client and does not pretend to send mail from the browser. For production server-side delivery, replace the form action with a provider endpoint or a small serverless function, then add validation, rate limiting, and secrets through the hosting provider's environment variables.
-
-## Deployment
-
-The site has no build step. Deploy the repository root to GitHub Pages, Netlify, Vercel static hosting, or any web server that serves HTML files. Ensure the configured domain is updated in the metadata before adding a canonical URL or sitemap.
+Website: https://sumangtm.com.np
