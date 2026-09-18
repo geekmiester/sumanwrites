@@ -1,14 +1,8 @@
-# Suman Gautam
+# Hi, I'm Suman 👋
 
-Product Manager and Product Owner based in Adelaide, Australia.
+I'm a Product Manager and Product Owner based in Adelaide, Australia, with 5+ years of experience delivering software products across B2B SaaS, internal platforms, mobile, and enterprise environments. With a background in software development, I focus on connecting user needs, business goals, and engineering execution.
 
-This portfolio showcases Suman's product work, case studies, writing, and professional background.
-
-## Links
-
-- Website: https://sumangtm.com.np
-- LinkedIn: https://www.linkedin.com/in/sumanwrites/
-- Download resume: [suman-gautam-product-manager-resume.pdf](assets/resume/suman-gautam-product-manager-resume.pdf)
+🌐 [Website](https://sumangtm.com.np/) · 💼 [LinkedIn](https://linkedin.com/in/sumanwrites) · ✉️ [Email](mailto:gautamsumanwrites@gmail.com)
 
 ## About Suman
 
