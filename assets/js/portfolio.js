@@ -1,7 +1,8 @@
 (function () {
   var iconStyles = [
     'assets/css/fontawesome-all.min.css',
-    'assets/css/social.css'
+    'assets/css/social.css',
+    'assets/css/theme.css'
   ];
   iconStyles.forEach(function (href) {
     if (!document.querySelector('link[href="' + href + '"]')) {
