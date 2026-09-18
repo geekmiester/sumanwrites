@@ -24,9 +24,38 @@
   componentScript.src = 'assets/js/components.js';
   componentScript.onload = function () {
     if (window.SiteComponents) window.SiteComponents.mount();
+    initAnimations();
     wireInteractions();
   };
   document.head.appendChild(componentScript);
+
+  function initAnimations() {
+    var revealItems = document.querySelectorAll('.reveal');
+    if (!revealItems.length) return;
+
+    if (!('IntersectionObserver' in window)) {
+      revealItems.forEach(function (item) {
+        item.classList.add('is-visible');
+      });
+      return;
+    }
+
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.18,
+      rootMargin: '0px 0px -8% 0px'
+    });
+
+    revealItems.forEach(function (item) {
+      observer.observe(item);
+    });
+  }
 
   function wireInteractions() {
     var resumeHref = 'assets/resume/suman-gautam-product-manager-resume.pdf';
