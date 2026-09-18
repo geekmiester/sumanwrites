@@ -21,7 +21,7 @@
   });
 
   var componentScript = document.createElement('script');
-  componentScript.src = 'assets/js/components.js';
+  componentScript.src = '/assets/js/components.js';
   componentScript.onload = function () {
     if (window.SiteComponents) window.SiteComponents.mount();
     initAnimations();
@@ -58,7 +58,7 @@
   }
 
   function wireInteractions() {
-    var resumeHref = 'assets/resume/suman-gautam-product-manager-resume.pdf';
+    var resumeHref = '/assets/resume/suman-gautam-product-manager-resume.pdf';
     document.querySelectorAll('a[href*="#resume"], a[href*="resume"]').forEach(function (link) {
       link.href = resumeHref;
       link.setAttribute('download', '');
